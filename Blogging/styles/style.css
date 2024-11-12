@@ -1,0 +1,131 @@
+/* General Styles for the Whole Blog */
+body {
+    font-family: 'Arial', sans-serif; /* Use a clean, readable font */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light grey background */
+    color: #333; /* Dark grey text color */
+}
+
+header {
+    background-color: #333; /* Dark background for the header */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header nav a {
+    color: #fff; /* White links */
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+header nav a:hover {
+    text-decoration: underline; /* Underline effect on hover */
+}
+
+/* Styling for the Homepage (index.html) */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #fff; /* White background for each blog post item */
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul li h3 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+ul li p {
+    font-size: 1em;
+    color: #555; /* Slightly lighter text color */
+}
+
+/* Styling for the Individual Blog Post Pages (post-1.html, post-2.html, etc.) */
+article {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* White background for individual posts */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+article h3 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+article p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+nav a {
+    font-size: 1.1em;
+    text-decoration: none;
+    color: #333;
+    background-color: #f7f7f7;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #ddd; /* Light grey background when hovering over the link */
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav a {
+        font-size: 1em;
+        margin: 0 10px;
+    }
+
+    ul li {
+        padding: 10px;
+    }
+
+    article {
+        padding: 15px;
+    }
+}
